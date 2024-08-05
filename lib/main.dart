@@ -4,15 +4,15 @@ import 'screens/calculator_screen.dart';
 import 'themes/app_theme.dart';
 
 void main() {
-  // Ensure that widget binding is initialized
+  // widget binding is initialized
   WidgetsFlutterBinding.ensureInitialized();
-  
-  // Set preferred orientations to portrait only
+
+ 
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
     DeviceOrientation.portraitDown,
   ]);
-  
+
   runApp(const CalculatorApp());
 }
 
